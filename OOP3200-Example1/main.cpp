@@ -9,8 +9,13 @@ Description: This is the demo project for OOP3200 in the fall 2021 semester.
 */
 
 #include <iostream>
+#include "Person.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    //Declare an object of a custom data type
+    Person devanshi("Devanshi", 20);
+
+    devanshi.SayHello();
+
 }

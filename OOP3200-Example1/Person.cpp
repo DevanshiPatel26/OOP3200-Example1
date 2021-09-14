@@ -39,5 +39,5 @@ void Person::SetAge(int age = 0)
 
 void Person::SayHello()
 {
-	std::cout << GetName << " says Hello!" << std::endl;
+	std::cout << GetName() << " says Hello!" << std::endl;
 }
